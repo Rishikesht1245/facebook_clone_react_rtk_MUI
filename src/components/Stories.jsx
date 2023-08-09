@@ -75,10 +75,14 @@ export default function Stories() {
             <div className="border-blue"></div>
           </li>
           <li className="hover2">
-            <a href="#!">Reels</a>
+            <a href="#!" color="text.primary">
+              Reels
+            </a>
           </li>
           <li className="hover2">
-            <a href="#!">Rooms</a>
+            <a href="#!" color="text.primary">
+              Rooms
+            </a>
           </li>
         </ul>
         {/* stories */}
@@ -101,7 +105,9 @@ export default function Stories() {
                   </Fab>
                 </div>
                 <p>
-                  <small id="create-story-text">Create story</small>
+                  <small id="create-story-text" style={{ color: "gray" }}>
+                    Create story
+                  </small>
                 </p>
               </Stack>
             </div>

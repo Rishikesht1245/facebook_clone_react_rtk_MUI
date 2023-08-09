@@ -80,23 +80,23 @@ const Navbar = () => {
         <img src={logo} alt="" />
         <Search>
           <IconButton>
-            <SearchIcon />
+            <SearchIcon sx={{ color: "gray" }} />
           </IconButton>
           <InputBase
             placeholder="Search Facebook..."
-            sx={{ width: { xs: "50%", md: "100%" } }}
+            sx={{ width: { xs: "50%", md: "100%", color: "black" } }}
           />
         </Search>
 
         <Icons>
           <IconsBorder>
             <Badge badgeContent={4} color="error">
-              <MailIcon />
+              <MailIcon sx={{ color: "black" }} />
             </Badge>
           </IconsBorder>
           <IconsBorder>
             <Badge badgeContent={9} color="error">
-              <Notifications />
+              <Notifications sx={{ color: "black" }} />
             </Badge>
           </IconsBorder>
 

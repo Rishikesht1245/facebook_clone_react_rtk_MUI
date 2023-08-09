@@ -65,7 +65,7 @@ const AddPost = () => {
             ></Avatar>
             <InputBase
               placeholder="What's on your mind, Samuel?"
-              sx={{ width: { xs: "50%", md: "100%" }, color: "text.primary" }}
+              sx={{ width: { xs: "50%", md: "100%" }, color: "black" }}
               onClick={(e) => setOpen(true)}
             />
           </Search>
@@ -86,7 +86,11 @@ const AddPost = () => {
               <VideoCallIcon sx={{ color: "red", fontSize: "35px" }} />
               <Typography
                 variant="small"
-                sx={{ fontSize: "16px", marginLeft: "8px" }}
+                sx={{
+                  fontSize: "16px",
+                  marginLeft: "8px",
+                  display: { xs: "none", sm: "flex" },
+                }}
               >
                 Live video
               </Typography>
@@ -98,7 +102,11 @@ const AddPost = () => {
               <CollectionsIcon sx={{ color: "green", fontSize: "30px" }} />
               <Typography
                 variant="small"
-                sx={{ fontSize: "16px", marginLeft: "8px" }}
+                sx={{
+                  fontSize: "16px",
+                  marginLeft: "8px",
+                  display: { xs: "none", sm: "flex" },
+                }}
               >
                 Photo/video
               </Typography>
@@ -110,7 +118,11 @@ const AddPost = () => {
               <TagFacesIcon sx={{ color: "red", fontSize: "30px" }} />
               <Typography
                 variant="small"
-                sx={{ fontSize: "16px", marginLeft: "8px" }}
+                sx={{
+                  fontSize: "16px",
+                  marginLeft: "8px",
+                  display: { xs: "none", sm: "flex" },
+                }}
               >
                 Feeling/activity
               </Typography>
