@@ -8,7 +8,7 @@
 
 - Responsive Design
   - The website is fully responsive, providing a seamless experience across various devices and screen sizes.
-- Movie Card Slider
+- Stories Card Slider
 
 ## Technologies Used
 
